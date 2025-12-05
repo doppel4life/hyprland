@@ -1,0 +1,42 @@
+@import "/home/m/.config/waybar/gruvbox.css";
+
+* {
+  font-family: JetBrainsMono;
+  color: @color8;
+  background: transparent;
+}
+
+#window {
+  background: @background;
+  margin: auto;
+  padding: 10px;
+  border-radius: 1px;
+  border: 3px solid  @color8 ;
+}
+
+#input {
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+#outer-box {
+  padding: 20px;
+}
+
+#img {
+  margin-right: 6px;
+}
+
+#entry {
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#entry:selected {
+  background-color: @background;
+}
+
+#text {
+  margin: 2px;
+}
